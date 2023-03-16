@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		5AE984E167C58C997D65B569 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = C52EDE2D7B51A1DF404FC218 /* main.mm */; };
 		7B7F5A88B5CDE73A45F392CF /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D79D26BB219B2D0CF31E8B /* MetalKit.framework */; };
 		B4A55EE7A32CE7A3EC16D640 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F3BB9EEDCFD01C423F8108 /* Security.framework */; };
+		CD99496929BE2E4B000941C0 /* libPods-testmob_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD99496829BE2E4B000941C0 /* libPods-testmob_iOS.a */; };
+		CD99496B29BE2F8D000941C0 /* libswiftFoundation.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CD99496A29BE2F8D000941C0 /* libswiftFoundation.tbd */; };
 		DF7693FCCAE3649168F2C7C5 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDA58E01CF5CF30E696ECB5 /* Metal.framework */; };
 		EB84F56F1DB819B5BCAAD79B /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 6BEFBDE562F5C244582FC8CB /* assets */; };
 		EC40A71B6976E9D440C897CA /* lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 351450107A8E15100237A1F7 /* lib.a */; };
@@ -26,12 +28,17 @@
 		418A81F248B597C0B11DC034 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		69F3BB9EEDCFD01C423F8108 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		6BEFBDE562F5C244582FC8CB /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = SOURCE_ROOT; };
+		6FA5960158BF6879B217A801 /* Pods-testmob_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testmob_iOS.debug.xcconfig"; path = "Target Support Files/Pods-testmob_iOS/Pods-testmob_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		71FCADBA88D20041E1AE41C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		877C698D08090CE053639475 /* main.rs */ = {isa = PBXFileReference; path = main.rs; sourceTree = "<group>"; };
+		877C698D08090CE053639475 /* main.rs */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.rs; sourceTree = "<group>"; };
 		A3D79D26BB219B2D0CF31E8B /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		AE87E1F0A15C2D72E9DEFDA7 /* Pods-testmob_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testmob_iOS.release.xcconfig"; path = "Target Support Files/Pods-testmob_iOS/Pods-testmob_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		B79A40575EB5E79CA816E7A1 /* libPods-testmob_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testmob_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C141193CCCF39CF36A5259FE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		C52EDE2D7B51A1DF404FC218 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
-		D9B8904D3008517AE510F9A2 /* testmob_iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = testmob_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD99496829BE2E4B000941C0 /* libPods-testmob_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-testmob_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD99496A29BE2F8D000941C0 /* libswiftFoundation.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftFoundation.tbd; path = usr/lib/swift/libswiftFoundation.tbd; sourceTree = SDKROOT; };
+		D9B8904D3008517AE510F9A2 /* testmob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testmob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A0BC139703D002C117CE7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F018433B35CDFE3EF42C42A9 /* bindings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bindings.h; sourceTree = "<group>"; };
 		F5A6775E59700079D4EA3111 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -42,14 +49,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC40A71B6976E9D440C897CA /* lib.a in Frameworks */,
-				EF53E931707CE2EFC4CB4385 /* CoreGraphics.framework in Frameworks */,
-				DF7693FCCAE3649168F2C7C5 /* Metal.framework in Frameworks */,
-				7B7F5A88B5CDE73A45F392CF /* MetalKit.framework in Frameworks */,
-				4F144A9BB2C07DEFA93E3157 /* QuartzCore.framework in Frameworks */,
-				B4A55EE7A32CE7A3EC16D640 /* Security.framework in Frameworks */,
-				FB1CB50ACA2861E709EF7BFE /* UIKit.framework in Frameworks */,
+				CD99496B29BE2F8D000941C0 /* libswiftFoundation.tbd in Frameworks */,
+				CD99496929BE2E4B000941C0 /* libPods-testmob_iOS.a in Frameworks */,
 				224E15ED11381BC45CEFE878 /* WebKit.framework in Frameworks */,
+				FB1CB50ACA2861E709EF7BFE /* UIKit.framework in Frameworks */,
+				B4A55EE7A32CE7A3EC16D640 /* Security.framework in Frameworks */,
+				4F144A9BB2C07DEFA93E3157 /* QuartzCore.framework in Frameworks */,
+				7B7F5A88B5CDE73A45F392CF /* MetalKit.framework in Frameworks */,
+				DF7693FCCAE3649168F2C7C5 /* Metal.framework in Frameworks */,
+				EF53E931707CE2EFC4CB4385 /* CoreGraphics.framework in Frameworks */,
+				EC40A71B6976E9D440C897CA /* lib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +68,18 @@
 		2142ADD6E897346ADDB50D2D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D9B8904D3008517AE510F9A2 /* testmob_iOS.app */,
+				D9B8904D3008517AE510F9A2 /* testmob.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		445141BE8085A5B004CBC166 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FA5960158BF6879B217A801 /* Pods-testmob_iOS.debug.xcconfig */,
+				AE87E1F0A15C2D72E9DEFDA7 /* Pods-testmob_iOS.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		57D67F1903DF629F7BCB7CE0 /* bindings */ = {
@@ -100,6 +118,8 @@
 		A74B0BC725E4CA32903710DF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD99496A29BE2F8D000941C0 /* libswiftFoundation.tbd */,
+				CD99496829BE2E4B000941C0 /* libPods-testmob_iOS.a */,
 				F5A6775E59700079D4EA3111 /* CoreGraphics.framework */,
 				351450107A8E15100237A1F7 /* lib.a */,
 				2CDA58E01CF5CF30E696ECB5 /* Metal.framework */,
@@ -108,6 +128,7 @@
 				69F3BB9EEDCFD01C423F8108 /* Security.framework */,
 				71FCADBA88D20041E1AE41C4 /* UIKit.framework */,
 				C141193CCCF39CF36A5259FE /* WebKit.framework */,
+				B79A40575EB5E79CA816E7A1 /* libPods-testmob_iOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,6 +151,7 @@
 				69AA8B522B3383137175631F /* src */,
 				A74B0BC725E4CA32903710DF /* Frameworks */,
 				2142ADD6E897346ADDB50D2D /* Products */,
+				445141BE8085A5B004CBC166 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +162,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B46CD7FF40C2BCA90859CE77 /* Build configuration list for PBXNativeTarget "testmob_iOS" */;
 			buildPhases = (
+				0F73742524F73AC4A51530CB /* [CP] Check Pods Manifest.lock */,
 				76F15F7952C62E003A9A858D /* Build Rust Code */,
 				23F2464B6AAE20E188732282 /* Sources */,
 				E850485B99318326834E5DE6 /* Resources */,
@@ -151,7 +174,7 @@
 			);
 			name = testmob_iOS;
 			productName = testmob_iOS;
-			productReference = D9B8904D3008517AE510F9A2 /* testmob_iOS.app */;
+			productReference = D9B8904D3008517AE510F9A2 /* testmob.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -176,6 +199,7 @@
 				en,
 			);
 			mainGroup = BE5718121C6D836CF166AC29;
+			productRefGroup = 2142ADD6E897346ADDB50D2D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -197,6 +221,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0F73742524F73AC4A51530CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testmob_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		76F15F7952C62E003A9A858D /* Build Rust Code */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
@@ -216,7 +262,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/Users/mo/.cargo/bin/cargo-tauri tauri ios xcode-script -v --platform ${PLATFORM_DISPLAY_NAME:?} --sdk-root ${SDKROOT:?} --framework-search-paths \"${FRAMEWORK_SEARCH_PATHS:?}\" --header-search-paths \"${HEADER_SEARCH_PATHS:?}\" --gcc-preprocessor-definitions \"${GCC_PREPROCESSOR_DEFINITIONS:?}\" --configuration ${CONFIGURATION:?} ${FORCE_COLOR} ${ARCHS:?}";
+			shellScript = "/Users/mo/.cargo/bin/cargo-tauri tauri ios xcode-script -v --platform ${PLATFORM_DISPLAY_NAME:?} --sdk-root ${SDKROOT:?} --framework-search-paths \"${FRAMEWORK_SEARCH_PATHS:?}\" --header-search-paths \"${HEADER_SEARCH_PATHS:?}\" --gcc-preprocessor-definitions \"${GCC_PREPROCESSOR_DEFINITIONS:?}\" --configuration ${CONFIGURATION:?} ${FORCE_COLOR} ${ARCHS:?}\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -297,6 +343,7 @@
 		};
 		619AF414B12481A1E3AD8EA7 /* debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA5960158BF6879B217A801 /* Pods-testmob_iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ARCHS = (
@@ -304,6 +351,7 @@
 					"arm64-sim",
 				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 2487AN8AL4;
 				ENABLE_BITCODE = NO;
@@ -316,9 +364,32 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				"LIBRARY_SEARCH_PATHS[arch=arm64-sim]" = "$(inherited) $(PROJECT_DIR)/Externals/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
-				"LIBRARY_SEARCH_PATHS[arch=arm64]" = "$(inherited) $(PROJECT_DIR)/Externals/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
-				"LIBRARY_SEARCH_PATHS[arch=x86_64]" = "$(inherited) $(PROJECT_DIR)/Externals/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=arm64-sim]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Externals/$(CONFIGURATION)",
+					"$(SDKROOT)/usr/lib/swift",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=arm64]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Externals/$(CONFIGURATION)",
+					"$(SDKROOT)/usr/lib/swift",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=x86_64]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Externals/$(CONFIGURATION)",
+					"$(SDKROOT)/usr/lib/swift",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)",
+				);
+				"OTHER_LIBTOOLFLAGS[arch=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tauri.testmob;
 				PRODUCT_NAME = testmob;
 				SDKROOT = iphoneos;
@@ -329,6 +400,7 @@
 		};
 		C7654B595FECC0B75C305F1C /* release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE87E1F0A15C2D72E9DEFDA7 /* Pods-testmob_iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ARCHS = (
@@ -348,9 +420,31 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				"LIBRARY_SEARCH_PATHS[arch=arm64-sim]" = "$(inherited) $(PROJECT_DIR)/Externals/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
-				"LIBRARY_SEARCH_PATHS[arch=arm64]" = "$(inherited) $(PROJECT_DIR)/Externals/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
-				"LIBRARY_SEARCH_PATHS[arch=x86_64]" = "$(inherited) $(PROJECT_DIR)/Externals/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=arm64-sim]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Externals/$(CONFIGURATION)",
+					"$(SDKROOT)/usr/lib/swift",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=arm64]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Externals/$(CONFIGURATION)",
+					"$(SDKROOT)/usr/lib/swift",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=x86_64]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Externals/$(CONFIGURATION)",
+					"$(SDKROOT)/usr/lib/swift",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tauri.testmob;
 				PRODUCT_NAME = testmob;
 				SDKROOT = iphoneos;
